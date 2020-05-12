@@ -1,0 +1,47 @@
+.material-icons{
+    vertical-align: middle;
+   }
+ #id1:hover{
+        color: red;
+        cursor: pointer;
+   }
+   #id2{
+    font-size: 15px;
+   }
+   #abc{
+    padding-left: 20px;
+   }
+   .card{
+   	width:14rem;
+   }
+   .new-release{
+     color:red
+   }
+   .cln{
+        vertical-align:middle;
+      }
+      .efg {
+        vertical-align: middle;
+      }
+    .icon-size{
+     font-size: 64px;
+    }
+    .cf{
+    	margin-top: -20px
+    }
+    .btn-primary{
+            border-radius: 0px;
+            background-color: #00ba00;
+            border: none;
+        }
+         .btn-primary:hover{
+            border-radius: 0px;
+            background-color: #00aa00;
+        }
+        .pqr{
+          background-color: #E0F1E1;
+        }
+
+        .sty{
+          background-color: #DDCCDE
+        }

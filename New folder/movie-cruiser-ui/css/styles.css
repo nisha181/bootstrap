@@ -1,0 +1,40 @@
+.navbar{
+    background-color: #020f2e;
+}
+ nav a{
+ 	color: #d4c711;
+ }
+ .fco{
+ 	color: #d4c711;
+ }
+ .btn{
+ 	background-color: #020f2e;
+ }
+ .cart-title{
+ 	horizontal-align: center;
+ }
+ .clock{
+    font-size: 12px;
+   }
+.jumbotron{    
+  	background: url('https://static.wixstatic.com/media/f2ab7d_b0c802f8c560400e899f3740993185ab~mv2_d_2721_1531_s_2.gif');
+  	background-position: center;
+  	background-repeat: no-repeat;
+  	background-size: cover;
+  	text-shadow: 2px 0px #000000;
+  	padding-top: 10vh!important;
+  	padding-bottom: 15vh!important;
+  	padding-left: 10vw;
+}
+.bco{
+	color: #d4c711;
+}
+.cs{
+	font-size: 14px;
+}
+.wc{
+	width: 18rem;
+}
+.fav{
+  color: #ad0909
+}

@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>edit-movie-cruiser-validation</title>
+    <link href="https://unpkg.com/gijgo@1.9.13/css/gijgo.min.css" type="text/css" rel="stylesheet"/>
+   
+    <!-- Bootstrap CSS -->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+
+
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="css/styles.css">
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+
+    <script src="https://unpkg.com/gijgo@1.9.13/js/gijgo.min.js" type="text/javascript"></script>
+
+</head>
+<body>
+    <header>
+    <nav class="navbar navbar-expand-sm">
+        <div class="container-fluid">
+        <a href="#" class="navbar-brand pl-3"><h3><span class="material-icons">movie</span>Movie Cruiser</h3></a>
+        <button class="navbar-toggler" data-toggle="collapse"  data-target="#nisha">
+             <span class="material-icons text-white">reorder</span>
+        </button>
+        <div class="collapse navbar-collapse" id="nisha">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item px-2"><a class="nav-link" href="#"><h5>Movies</h5></a></li></ul>
+            </div>
+        </div>
+    </nav>
+</header>
+<div class="container">
+    <div class="row">
+        <div class="col-12">
+            <h2 class="display-5 p-2 pl-10">
+                Edit Movie
+            </h2>
+        </div>
+    </div>
+    <form>
+    <div class="form-row">
+            <div class="col-12">
+                <div class="form-group text-muted">
+                <label for="MovieName">Movie Name</label>
+                <input type="text" class="form-control"></div>
+            </div>
+     </div>
+     <div class='form-row'>
+        <div class="col-12">
+            <strong id="movie" class="text-danger">Movie name is
+                    required </strong><br> <strong id="movie" class="text-danger">Movie
+                    Name cannot exceed 200 characters</strong>
+        </div>
+    </div>
+
+    <div class="form-row">
+        <div class="col-3 text-muted">
+            <label for="boxOffice">Box Office</label>
+            <input type="text" class="form-control">
+            <strong id="boxoffice"
+                        class="text-danger">Is required </strong>
+      
+        </div>
+
+
+             <div class="col-md-3 text-muted">
+                    <div class="form-group">
+                        <label for="dateOfLaunch">Date of Launch</label>
+                        <input class="form-control" type="text" id="dateOfLaunch">
+                        <strong id="date" class="text-danger">Is required</strong>
+                    </div>
+            </div>
+
+
+
+            <div class="col-md-3 mb-3 text-muted">
+      <label for="category">Genre</label>
+      <select class="form-control">
+                            <option>Select one Category</option>
+                            <option>Science Fiction</option>
+                            <option>Superhero</option>
+                            <option>Romance</option>
+                            <option>Comedy</option>
+                            <option>Adventure</option>
+                            <option>Thriller</option>
+
+                        </select>
+
+            <strong id="genre" class="text-danger">Is required</strong>
+    </div>
+
+
+     <div class="col-md-3 text-muted">
+                    <div class="form-group">
+                        <label for="active">Active</label><br>
+                        <input class="" type="radio">YES
+                        <input class="ml-3" type="radio">NO
+                    </div>
+            <strong id="active" class="text-danger">Is required</strong>
+                </div>
+
+</div>
+
+
+ <div class="form-row">
+     <div class="col-md-3 text-muted">
+                    <div class="form-group p-2">
+                       <input class=" " type="checkbox" unchecked>Booking
+                        <strong class="text-danger">Is required</strong>
+                    </div>
+                </div>
+</div>
+
+
+<div class="row">
+          <div class="form-group col-12">
+            <button type="submit" name="submit" id="submit" value="save" class="btn bco">Save</button>
+          </div>
+        </div>
+
+        </div>
+        </form>
+    </div>
+ <footer>
+      <nav class="navbar navbar-expand-sm">
+        <div class="container fomar"><p class="fco">© Copyright 2020</p></div>
+      </nav>
+    </footer>
+    <script 
+       src="js/all.js"
+      type="text/javascript">
+    </script>
+</body>
+</html>
+
